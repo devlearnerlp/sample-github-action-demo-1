@@ -1,8 +1,0 @@
-name: hello world action only with pull request
-on: [pull_request]
-jobs:
-  Explore-Pull-action:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "triggered with pull request, A very simple hello world action."
-      
